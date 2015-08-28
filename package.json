@@ -1,7 +1,7 @@
 {
   "name": "logger-server",
-  "version": "0.0.2",
-  "description": "Stream logs through sockets",
+  "version": "0.0.3",
+  "description": "A server ready to stream log files through sockets",
   "main": "logger.js",
   "scripts": {},
   "repository": {
