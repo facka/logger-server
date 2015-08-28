@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var filename = "./example.log";
 
 var spawn = require('child_process').spawn;
