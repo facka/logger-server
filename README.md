@@ -4,26 +4,28 @@ Node Server that opens a socket to stream any log file.
 
 # Install
 ```
-npm install
+npm install logger-server -g
 ```
 # Deploy
 Deploy this server in any folder where you have a log file.
 
 # Run
-```
-node logger.js
-```
-It opens a socket in port 3000
 
+Go to the folder where you have the log files and then run:
 
-Go to http://facka.github.io/logger-web/ to connect to the servers
+```
+logger-server
+```
+It will open a socket in port 3000
+
+Then go to http://facka.github.io/logger-web/ to connect to the servers. Create a panel and set host= localhost, port=3000, path='THEPATH', file='YOURFILE'
 
 
 # Test it!
 
-To test this server I created a node that logs to example.log file. To run it:
+To test this server I created a node that logs to the standard output. To run it:
 ```
-node server-example.js >> example.log
+logger-server-example >> example.log
 ```
 
 Enjoy!
