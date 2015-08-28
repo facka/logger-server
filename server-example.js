@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var count = 0;
 
 setInterval(function() {
