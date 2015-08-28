@@ -1,12 +1,12 @@
 {
-  "name": "logger",
+  "name": "logger-server",
   "version": "0.0.1",
   "description": "Stream logs through sockets",
   "main": "logger.js",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/facka/logger.git"
+    "url": "https://github.com/facka/logger-server.git"
   },
   "keywords": [
     "log",
@@ -17,11 +17,15 @@
   "author": "Facundo Crego",
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/facka/logger/issues"
+    "url": "https://github.com/facka/logger-server/issues"
   },
   "devDependencies": {},
   "dependencies": {
     "express": "^4.13.1",
     "socket.io": "^1.3.5"
-  }
+  },
+  "bin": {
+    "logger-socket": "logger.js"
+  },
+  "preferGlobal": "true"
 }
